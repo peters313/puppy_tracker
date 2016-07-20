@@ -1,4 +1,16 @@
-var application = require("application");
-application.mainModule = "main-page";
-application.cssFile = "./app.css";
-application.start();
+var applicationModule = require("application");
+
+if (applicationModule.ios) {
+  var AppDelegate = UIResponder.extend({
+    applicationDidFinishLaunchingWithOptions: function () {
+      UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent;
+      return true;
+    }
+  }, {
+    name: "AppDelegate",
+    protocols: [UIApplicationDelegate]
+  });
+  applicationModule.ios.delegate = AppDelegate;
+}
+
+applicationModule.start({ moduleName: "./views/main/main" });

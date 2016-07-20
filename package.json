@@ -1,0 +1,38 @@
+{
+	"name": "puppy_tracker",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"nativescript": {
+		"id": "com.tjvantoll.groceries",
+		"tns-ios": {
+			"version": "1.5.2"
+		},
+		"tns-android": {
+			"version": "1.5.1"
+		}
+	},
+	"dependencies": {
+		"email-validator": "^1.0.3",
+		"nativescript-iqkeyboardmanager": "^1.0.0",
+		"nativescript-social-share": "^1.1.2",
+		"nativescript-floatingactionbutton": "^0.1.4",
+		"nativescript-telerik-ui": "0.2.3",
+		"nativescript-unit-test-runner": "^0.2.8",
+		"tns-core-modules": "1.5.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/peters313/puppy_tracker.git"
+	},
+	"author": "peters313",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/peters313/puppy_tracker/issues"
+	},
+	"homepage": "https://github.com/peters313/puppy_tracker#readme"
+}

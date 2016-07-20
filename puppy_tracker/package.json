@@ -1,0 +1,11 @@
+{
+	"nativescript": {
+		"id": "org.nativescript.puppytracker",
+		"tns-ios": {
+			"version": "1.5.2"
+		}
+	},
+	"dependencies": {
+		"tns-core-modules": "2.1.0"
+	}
+}

@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"nativescript": {
-		"id": "com.peters313.puppy_tracker",
+		"id": "org.nativescript.puppytracker",
 		"tns-ios": {
 			"version": "1.5.2"
 		},

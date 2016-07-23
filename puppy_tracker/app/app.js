@@ -27,5 +27,10 @@ export default StyleSheet.create({
     "ActionBar": {
         "color": "#FFFFFF",
         "backgroundColor": "#3C5AFD"
+    },
+    "NavBar": {
+        "fontSize": 18,
+        "color": "#FFF",
+        "backgroundColor": "#000"
     }
 });
